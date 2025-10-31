@@ -7,6 +7,7 @@ CRS Name: Artificial Intelligence
 School Name: Jain Vidyalaya
 Student Name: M. Rakshmi Priyasree
 Candidate Registration Number: 1000405
+Link for the chatbot: https://raksmi.github.io/IDAI101-1000405--Rakshmi-Priyasree-M/
 
 Project Overview:
 
