@@ -14,6 +14,8 @@ Project Overview:
 JVNOVA is an AI-powered Smart Campus Assistant Chatbot developed using Google Dialogflow as part of the IBCP Artificial Intelligence course.
 The chatbot assists students, parents, and visitors with instant guidance about transportation, office timings, admissions, and campus navigation — acting as a virtual campus guide available 24/7.
 
+JvNova is a Mega agent made up of 4 sub agents, I choose to create a Mega agent as it will be essay to make upcoming changes and manage intents and enities without mess
+
 -> Objective
 To simplify access to campus-related information.
 To reduce confusion among visitors and students.
