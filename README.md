@@ -36,38 +36,84 @@ Office Timing Bot-	3 intents- 	@office, @day_type (entity)
 Admission Bot-	5 intents-	@class(eentity)
 Campus Navigation Bot-	10 intents-	@building_name, @department(entity)
 
--> Detailed Intents and Their Functions
-      ->Transportation Bot
-                  Intent_name:	Provides details about transport modes available (bus, van, etc.), timings, and routes for students and staff.
-🏢 Office Timing Bot
-Intent Name	Function
-Office_Hours_Admin	Gives working hours of the Administrative Office on weekdays/weekends.
-Office_Hours_Reception	Shares the Reception office’s timing and contact info.
-Holiday_Information	Provides information about campus holiday schedules.
-🎓 Admission Bot
-Intent Name	Function
-Admission_Process	Explains how to apply for admission.
-Admission_Eligibility	Provides eligibility criteria for different classes.
-Fee_Structure	Shares details about fee payment and deadlines.
-Document_Requirements	Lists documents required for admission.
-Scholarship_Info	Gives details about available scholarships and how to apply.
-🧭 Campus Navigation Bot
-Intent Name	Function
-Find_Building_Location	Helps locate a specific building/block on campus.
-Find_Lab	Shares directions to labs or computer centers.
-Find_Library	Guides users to the library location and timings.
-Find_Hostel	Provides location and facilities of the hostel.
-Find_Department	Helps identify departmental blocks and their rooms.
-Find_Canteen	Shares canteen directions and timings.
-Find_Playground	Shows route to the playground or sports area.
-Find_Parking	Guides users to parking zones.
-Event_Venue_Location	Provides event or seminar venue details.
-Campus_Map	Displays the overall layout and building map link (if integrated).
-🔤 Detailed Entities and Their Roles
-Entity Name	Function
-@mode	Identifies the user’s preferred transportation method (e.g., bus, van, cab).
-@office	Recognizes which office the user refers to (Admin or Reception).
-@day_type	Detects the day type to provide correct timings (Weekday, Weekend, Holiday).
-@class	Used to filter admission info based on grade/class (e.g., Grade 6, Grade 11).
-@building_name	Captures names of buildings or blocks on campus (e.g., A Block, Science Block).
-@department	Recognizes departments like Library, Hostel, or Labs to provide directions.
+-->Transportation Bot
+
+ Intent_Name: mode
+ Purpose: Provides details about available transport modes (bus, van, cab, etc.).
+
+-->Office Timing Bot
+
+ Intent_Name: Reception
+ Purpose: Provides working hours for the Administrative Office on weekdays and weekends.
+
+ Intent_Name: Appointment
+ Purpose: Shows appointment procedures
+
+ Intent_Name: sun
+ Purpose: Provides information about if the school is open on sundays or not
+
+-->Admission Bot
+
+ Intent_Name: class 11 admission
+ Purpose: provides data about courses available for grade 11
+
+ Intent_Name: Kindergarten
+ Purpose: Provides steps to get a form for kindergarten admission
+
+ Intent_Name: primary school
+ Purpose: Provides steps to get a form for primary school admission
+
+ Intent_Name: secondary schl
+ Purpose: Provides steps to get a form for secondary admission admission
+
+-->Campus Navigation Bot
+
+ Intent_Name: Admin block
+ Purpose: Helps users to locate admin block
+
+ Intent_Name: Science lab
+ Purpose: Provides directions to science labs.
+
+ Intent_Name: library
+ Purpose: Shares library location, timings.
+
+ Intent_Name: comp lab
+ Purpose: Helps users to locate computer lab
+
+ Intent_Name: Av room
+ Purpose: Helps users to locate Av room
+
+ Intent_Name: canteen
+ Purpose: Provides canteen location.
+
+ Intent_Name: kindergarten
+ Purpose: Helps users to locate kindergarten block
+
+ Intent_Name: primary block
+ Purpose: Helps users to locate primary block
+
+ Intent_Name: science block
+ Purpose: Helps users to locate science block
+
+ Intent_Name: swimming
+ Purpose: Helps users to locate swimming pool
+
+--> Detailed Entities and Their Functions
+
+ Entity_Name: @mode
+ Purpose: Identifies the type of transportation requested 
+ 
+ Entity_Name: @admin_functions
+ Purpose: Recognizes which office is being referred to (Admin or Reception).
+
+ Entity_Name: @time_day
+ Purpose: Detects the day type (Weekday, Weekend, Holiday) to provide accurate timings.
+
+ Entity_Name: @class
+ Purpose: Specifies the grade or class for which admission information is requested.
+
+ Entity_Name: @building_name
+ Purpose: Captures the building or block name (e.g., A Block, Science Block, Auditorium).
+
+ Entity_Name: @department
+ Purpose: Recognizes departments such as Library, Hostel, or Labs for navigation assistance.
