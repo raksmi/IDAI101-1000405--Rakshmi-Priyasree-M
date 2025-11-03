@@ -43,6 +43,9 @@ Campus Navigation Bot-	10 intents-	@building_name, @department(entity)
 
  Intent_Name: mode
  Purpose: Provides details about available transport modes (bus, van, cab, etc.).
+ Example Questions: - Does school provide bus facilities?
+                    - What are the transportation available?
+                    - can i get the bus route
 
 -->Office Timing Bot
 
