@@ -51,23 +51,41 @@ Campus Navigation Bot-	10 intents-	@building_name, @department(entity)
 
  Intent_Name: Reception
  Purpose: Provides working hours for the Administrative Office on weekdays and weekends.
+ Example Questions: - is school open tomorrow?
+                    - can i come to reception today?
+                    -is the office open tomorrow?
 
  Intent_Name: Appointment
  Purpose: Shows appointment procedures
+ Example Questions: - can i meet principal today?
+                    - Shall i come to meet admin tomorrow?
+                    - is principal available today?
 
  Intent_Name: sun
  Purpose: Provides information about if the school is open on sundays or not
+ Example Questions: - tomorrow is sunday, is the school open?
+                    - Is it open on sunday?
+                    - Is the school open on sunday?
 
 -->Admission Bot
 
  Intent_Name: class 11 admission
  Purpose: provides data about courses available for grade 11
+ Example Questions: - is admission open for grade 11?
+                    - What are the courses available for class 11?
+                    - admission for class 11?
 
  Intent_Name: Kindergarten
  Purpose: Provides steps to get a form for kindergarten admission
+ Example Questions: - procedure to get admission for kindergarten?
+                    - Admission  for LKG?
+                    - is admission for kindergarten open?
 
  Intent_Name: primary school
  Purpose: Provides steps to get a form for primary school admission
+  Example Questions: - procedure to get admission for primary?
+                    - Admission  for class 5?
+                    - is admission for primary open?
 
  Intent_Name: secondary schl
  Purpose: Provides steps to get a form for secondary admission admission
