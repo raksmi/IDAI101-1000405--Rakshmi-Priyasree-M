@@ -89,14 +89,21 @@ Campus Navigation Bot-	10 intents-	@building_name, @department(entity)
 
  Intent_Name: secondary schl
  Purpose: Provides steps to get a form for secondary admission admission
-
+  Example Questions: - procedure to get admission for secondary?
+                    - Admission  for grade 6?
+                    - is admission for secondary open?
+                    
 -->Campus Navigation Bot
 
  Intent_Name: Admin block
  Purpose: Helps users to locate admin block
-
+ Example Questions: - where is reception?
+                    - Admin office?
+                    - where is admin block?
+                    
  Intent_Name: Science lab
  Purpose: Provides directions to science labs.
+ 
 
  Intent_Name: library
  Purpose: Shares library location, timings.
