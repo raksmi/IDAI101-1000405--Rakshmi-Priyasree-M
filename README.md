@@ -103,31 +103,57 @@ Campus Navigation Bot-	10 intents-	@building_name, @department(entity)
                     
  Intent_Name: Science lab
  Purpose: Provides directions to science labs.
- 
+ Example Questions: - where are the science labs?
+                    - where can i find chemistry lab
+                    - biology lab?
 
  Intent_Name: library
  Purpose: Shares library location, timings.
+ Example Questions: - where is library?
+                    - how can i go to library?
+                    - where is the place for reading?
 
  Intent_Name: comp lab
  Purpose: Helps users to locate computer lab
-
+ Example Questions: - where do i find computer lab?
+                    - is there any computer lab?
+                    - how many computer lab are there
+                    
  Intent_Name: Av room
  Purpose: Helps users to locate Av room
+ Example Questions: - where is av room located?
+                    - how should i go to av room?
+                    - where is AV room?
 
  Intent_Name: canteen
  Purpose: Provides canteen location.
-
+ Example Questions: - where do i find canteen?
+                    - where is jvteria?
+                    - cafe is located?
+                    
  Intent_Name: kindergarten
  Purpose: Helps users to locate kindergarten block
+ Example Questions: - where do i find the kindergarten?
+                    - where is kindergarten?
+                    - how should i go to kindergarten?
 
  Intent_Name: primary block
  Purpose: Helps users to locate primary block
+ Example Questions: - where do i find the primary block?
+                    - where is primary block?
+                    - where are kids from 1 to 5?
 
  Intent_Name: science block
  Purpose: Helps users to locate science block
+ Example Questions: - science block?
+                    - where is the sciience block?
+                    - where is lalji velji block?
 
  Intent_Name: swimming
  Purpose: Helps users to locate swimming pool
+ Example Questions: - ?
+                    - where is the sciience block?
+                    - where is lalji velji block?
 
 --> Detailed Entities and Their Functions
 
