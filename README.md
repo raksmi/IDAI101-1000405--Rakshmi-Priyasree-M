@@ -151,9 +151,9 @@ Campus Navigation Bot-	10 intents-	@building_name, @department(entity)
 
  Intent_Name: swimming
  Purpose: Helps users to locate swimming pool
- Example Questions: - ?
-                    - where is the sciience block?
-                    - where is lalji velji block?
+ Example Questions: - where can i find pool?
+                    - where is swimming pool?
+                    - swimming pool?
 
 --> Detailed Entities and Their Functions
 
