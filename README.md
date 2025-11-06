@@ -197,3 +197,6 @@ Campus Navigation Bot-	10 intents-	@building_name, @department(entity)
 
  Entity_Name: @library
  Purpose: Detects different words for library
+
+ Entity_Name: @route
+ Purpose: Detects different words for routes
