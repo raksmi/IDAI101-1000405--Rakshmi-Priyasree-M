@@ -67,6 +67,12 @@ Campus Navigation Bot-	10 intents-	@building_name, @department(entity)
                     - Is it open on sunday?
                     - Is the school open on sunday?
 
+  Intent_Name: lib
+ Purpose: Provides information about timings about library
+ Example Questions: - when should i visit library?
+                    - is library open on all days?
+                    - when is library open?
+
 -->Admission Bot
 
  Intent_Name: class 11 admission
