@@ -28,8 +28,8 @@ Faculty and Administrative Staff
 
 -> Architecture & Design
 1 mega bot- 4 sub agents
-Total Intents: 19
-Total Entities: 6
+Total Intents: 21
+Total Entities: 11
 Default Welcome & Fallback Intents: Enabled
 Slot Filling & Parameters: Used for office timings, admissions, and navigation queries.
 
