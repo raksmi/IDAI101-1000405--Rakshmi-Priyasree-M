@@ -174,3 +174,15 @@ Campus Navigation Bot-	10 intents-	@building_name, @department(entity)
 
  Entity_Name: @department
  Purpose: Recognizes departments such as Library, Hostel, or Labs for navigation assistance.
+ 
+ Entity_Name: @IBCP
+ Purpose: Detects the questions about IBCP
+
+ Entity_Name: @labs
+ Purpose: Identifies Labs(EX: Phy lab,etc)
+
+ Entity_Name: @postion
+ Purpose: Recognizes the authority that the user wants to meet
+
+ Entity_Name: @library
+ Purpose: Detects different words for library
